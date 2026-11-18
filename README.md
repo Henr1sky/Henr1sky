@@ -4,7 +4,7 @@
 
 **Segurança da informação · Análise de redes · Desenvolvimento em Rust**
 
-Desenvolvo ferramentas de terminal para analisar capturas de rede e logs. Meu foco é facilitar tarefas como examinar protocolos, investigar eventos e registrar resultados para que uma análise possa ser revisada ou repetida.
+Neste GitHub, reúno projetos de segurança da informação em duas áreas: desenvolvimento de ferramentas para análise de redes e estudos práticos em desafios Capture the Flag (CTF).
 
 ## Projetos
 
