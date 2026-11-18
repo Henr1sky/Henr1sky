@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 140" width="960" height="140">
+  <defs>
+    <linearGradient id="background" x2="1" y2="0">
+      <stop stop-color="#0c192a"/>
+      <stop offset="1" stop-color="#12333e"/>
+    </linearGradient>
+    <linearGradient id="signal" x2="1" y2="0">
+      <stop stop-color="#45b4d2"/>
+      <stop offset="1" stop-color="#82eed1"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#b9e7f4" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="140" rx="14" fill="url(#background)"/>
+  <rect x="24" y="19" width="912" height="102" rx="6" fill="url(#grid)"/>
+  <path d="M24 93h912M24 45h912" fill="none" stroke="#92cad8" stroke-opacity=".19" stroke-dasharray="2 6"/>
+  <path d="M24 93h72l17-13h68l20 13h95l19-21h39l22 21h70l22-34h50l20 34h86l19-11h41l17 11h100l22-26h40l14 26h59" fill="none" stroke="#64bbd5" stroke-opacity=".35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 73h95l14-13h61l13 13h82l19-33h64l18 33h65l16-22h46l16 22h57l22-39h48l23 39h57l21-19h65l19 19h91" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#adffeb">
+    <circle cx="308" cy="40" r="4"/>
+    <circle cx="612" cy="34" r="4"/>
+    <circle cx="761" cy="54" r="4"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="139" rx="13.5" fill="none" stroke="#4a7786" stroke-opacity=".7"/>
+</svg>
