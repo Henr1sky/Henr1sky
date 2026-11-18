@@ -2,28 +2,21 @@
 
 # Henr1sky
 
-**Segurança da informação · Análise de redes · Desenvolvimento em Rust**
+**Segurança da informação · Redes e sistemas Linux**
 
-Repositório dedicado a projetos de Segurança da Informação, incluindo ferramentas para análise de redes e monitoramento de sistemas Linux, além de estudos práticos e write-ups de desafios Capture the Flag (CTF).
+Desenvolvo ferramentas de terminal para investigar o que acontece na rede e no sistema. O **VitaisK** acompanha eventos de um host Linux em tempo real. O **SonarK** ajuda a investigar capturas e logs já coletados.
 
-## Projetos
+## Projetos em destaque
 
-### [SonarK](https://github.com/Henr1sky/SonarK)
+| [VitaisK](https://github.com/Henr1sky/VitaisK) | [SonarK](https://github.com/Henr1sky/SonarK) |
+| :--- | :--- |
+| **Monitoramento em tempo real** | **Análise offline de tráfego e logs** |
+| `Python` · `Linux` · `Alfa` | `Rust` · `Linux` · `TShark` |
+| Acompanhe eventos do sistema, veja métricas de CPU, RAM e disco e investigue alertas do host em um painel de terminal. | Explore protocolos e consultas DNS em capturas PCAP/PCAPNG, consulte logs locais e exporte resultados de investigações. |
+| [Instalação](https://github.com/Henr1sky/VitaisK#requisitos-e-instala%C3%A7%C3%A3o) · [Guia do painel](https://github.com/Henr1sky/VitaisK#painel-e-modo-em-fluxo) | [Instalação](https://github.com/Henr1sky/SonarK#instala%C3%A7%C3%A3o-e-primeiros-passos) · [Manual](https://github.com/Henr1sky/SonarK/blob/main/docs/manual.md) · [Catálogo](https://github.com/Henr1sky/SonarK/blob/main/docs/catalogo.md) |
 
-Aplicação de terminal escrita em Rust para Linux. O SonarK organiza operações do TShark em uma interface interativa para analisar capturas PCAP e PCAPNG e consultar logs locais.
+## Estudos em segurança
 
-- **Análise de tráfego.** Explore protocolos, examine consultas DNS e filtre os pacotes de uma captura.
-- **Investigação de logs.** Consulte registros locais e, em logs HTTP, agrupe códigos de status ou monte uma linha do tempo.
-- **Registro da análise.** Organize investigações em projetos, consulte o histórico e exporte resultados.
+**[CTFs-Desec](https://github.com/Henr1sky/CTFs-Desec)** · Registro dos desafios de Capture the Flag (CTF) que resolvi durante minha formação na Desec Security.
 
-[Instalação e exemplos de uso](https://github.com/Henr1sky/SonarK#instalação-e-primeiros-passos) · [Manual](https://github.com/Henr1sky/SonarK/blob/main/docs/manual.md) · [Catálogo de ações](https://github.com/Henr1sky/SonarK/blob/main/docs/catalogo.md)
-
-### [VitaisK](https://github.com/Henr1sky/VitaisK)
-
-Monitor local para Linux escrito em Python, em fase alfa. O painel acompanha eventos do sistema em tempo real, mostra o uso de CPU, RAM e disco e destaca alertas por gravidade.
-
-### [CTFs-Desec](https://github.com/Henr1sky/CTFs-Desec)
-
-Repositório de estudos criado para registrar os desafios de Capture the Flag (CTF) resolvidos durante minha formação na Desec Security.
-
-[Ver todos os repositórios](https://github.com/Henr1sky?tab=repositories)
+[Ver todos os repositórios →](https://github.com/Henr1sky?tab=repositories)
