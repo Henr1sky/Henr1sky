@@ -1,21 +1,23 @@
 <p align="center">
-  <img src="assets/perfil.svg" alt="" width="960">
+  <img src="assets/perfil.svg" alt="Henr1sky · Segurança da informação e análise de redes" width="860">
 </p>
 
-<h1 align="center">Henr1sky</h1>
-
-<p align="center"><strong>Segurança da informação · Análise de tráfego · Ferramentas de terminal</strong></p>
-
-Desenvolvo ferramentas de terminal para investigar capturas de rede e logs no Linux. Também documento desafios de segurança que resolvi durante minha formação na Desec Security.
+Desenvolvo ferramentas para investigar o que acontece na rede a partir de capturas de tráfego e logs. Trabalho com **Rust**, **Linux** e **TShark**, e documento os desafios que resolvi durante minha formação na Desec Security.
 
 ## Projetos em destaque
 
-### [SonarK](https://github.com/Henr1sky/SonarK)
+### [SonarK ↗](https://github.com/Henr1sky/SonarK)
 
-Ferramenta de terminal escrita em Rust para análise offline de capturas PCAP e PCAPNG e de logs locais. A interface interativa reúne ações guiadas com TShark, filtros e geração de relatórios.
+`Rust` · `Linux` · `PCAP / PCAPNG`
 
-### [CTFs-Desec](https://github.com/Henr1sky/CTFs-Desec)
+Ferramenta de análise offline com interface interativa no terminal. Permite explorar protocolos, filtrar pacotes, consultar logs locais e gerar relatórios da investigação.
 
-Registro dos desafios de Capture the Flag (CTF) que resolvi durante o curso da Desec Security.
+[Explorar a documentação →](https://github.com/Henr1sky/SonarK/blob/main/docs/manual.md)
 
-[Ver todos os repositórios públicos →](https://github.com/Henr1sky?tab=repositories)
+### [CTFs-Desec ↗](https://github.com/Henr1sky/CTFs-Desec)
+
+`Capture the Flag` · `Desec Security`
+
+Registro dos desafios resolvidos durante o curso da Desec Security.
+
+[Ver todos os repositórios →](https://github.com/Henr1sky?tab=repositories)
