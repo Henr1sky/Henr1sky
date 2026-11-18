@@ -4,7 +4,7 @@
 
 **Segurança da informação · Análise de redes · Desenvolvimento em Rust**
 
-Neste GitHub, reúno projetos de segurança da informação em duas áreas: desenvolvimento de ferramentas para análise de redes e estudos práticos em desafios Capture the Flag (CTF).
+Repositório dedicado a projetos de Segurança da Informação, organizados em duas áreas principais: (1) desenvolvimento de ferramentas para análise de redes e (2) estudos práticos e write-ups de desafios Capture the Flag (CTF).
 
 ## Projetos
 
