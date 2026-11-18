@@ -24,7 +24,7 @@
     <path d="M0 40h720" stroke="#353d46"/>
     <rect x="21" y="13" width="15" height="13" rx="2" fill="none" stroke="#b5bec8"/>
     <path d="m24 17 2.5 2.5L24 22m5 0h4" fill="none" stroke="#b5bec8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="46" y="26" fill="#e0e5eb" font-family="Segoe UI, Arial, sans-serif" font-size="17">Prompt de Comando</text>
+    <text x="46" y="26" fill="#e0e5eb" font-family="Segoe UI, Arial, sans-serif" font-size="17">CMD</text>
     <text x="24" y="88" fill="#e8edf2" font-size="24" textLength="58" lengthAdjust="spacingAndGlyphs">C:\&gt;</text>
     <g font-size="24">
       <g class="animated">
