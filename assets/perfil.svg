@@ -1,72 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 358" width="860" height="358">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 156" width="720" height="156">
   <defs>
-    <linearGradient id="panel" x2="1" y2=".9">
-      <stop stop-color="#101e23"/>
-      <stop offset="1" stop-color="#070e14"/>
-    </linearGradient>
-    <linearGradient id="plot" x2="1" y2="1">
-      <stop stop-color="#0b181b"/>
-      <stop offset="1" stop-color="#102628"/>
-    </linearGradient>
-    <linearGradient id="sweep">
-      <stop stop-color="#8decb7" stop-opacity="0"/>
-      <stop offset="1" stop-color="#8decb7" stop-opacity=".3"/>
-    </linearGradient>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0H0V22" fill="none" stroke="#3f6662" stroke-opacity=".34"/>
-    </pattern>
-    <clipPath id="frame">
-      <rect x="1" y="1" width="858" height="356" rx="20"/>
+    <clipPath id="window">
+      <rect x="1" y="1" width="718" height="154" rx="9"/>
     </clipPath>
-    <clipPath id="graph">
-      <rect x="531" y="92" width="287" height="180" rx="10"/>
+    <clipPath id="typing">
+      <rect x="95" y="65" width="0" height="30">
+        <animate attributeName="width" calcMode="discrete" dur="7s" repeatCount="indefinite"
+          values="0;12;24;36;48;60;72;84;96;108;120;132;144;156;156"
+          keyTimes="0;.07;.085;.10;.115;.13;.145;.16;.175;.19;.205;.22;.235;.25;1"/>
+      </rect>
     </clipPath>
   </defs>
   <style>
+    .static { display: none; }
     @media (prefers-reduced-motion: reduce) {
-      .sweep { display: none; }
+      .animated { display: none; }
+      .static { display: inline; }
     }
   </style>
-
-  <g clip-path="url(#frame)">
-    <rect width="860" height="358" fill="url(#panel)"/>
-    <path d="M0 0h860v60H0z" fill="#142429"/>
-    <path d="M0 298h860v60H0z" fill="#0c171c"/>
-    <path d="M0 60h860M0 298h860" stroke="#355250"/>
-    <circle cx="34" cy="30" r="5" fill="#8decb7"/>
-    <circle cx="53" cy="30" r="5" fill="#527972"/>
-    <circle cx="72" cy="30" r="5" fill="#355550"/>
-
-    <g font-family="DejaVu Sans Mono, SFMono-Regular, Consolas, monospace">
-      <text x="104" y="37" fill="#adc8c1" font-size="19">~/github/henr1sky</text>
-      <text x="818" y="37" text-anchor="end" fill="#adc8c1" font-size="19">bash</text>
-      <text x="40" y="118" fill="#8decb7" font-size="25" font-weight="700">$ whoami</text>
-      <text x="38" y="198" fill="#ecfaf2" font-size="76" font-weight="700" letter-spacing="-3">Henr1sky</text>
-      <text x="42" y="241" fill="#bfd6d0" font-size="24">Segurança da informação</text>
-      <text x="42" y="272" fill="#bfd6d0" font-size="24">Análise de redes</text>
-      <text x="42" y="335" fill="#a5c4bc" font-size="19">RUST  /  LINUX  /  TSHARK</text>
-      <text x="818" y="335" text-anchor="end" fill="#8decb7" font-size="20">▸_</text>
-    </g>
-
-    <g clip-path="url(#graph)">
-      <rect x="531" y="92" width="287" height="180" fill="url(#plot)"/>
-      <rect x="531" y="92" width="287" height="180" fill="url(#grid)"/>
-      <path d="M547 225h42l14-17h33l14 17h41l17-30h28l15 30h54"
-            fill="none" stroke="#497f76" stroke-width="2"/>
-      <path d="M547 187h28l16-21h25l18 21h27l18-50h35l17 50h24l17-28h33"
-            fill="none" stroke="#8decb7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M679 124v111" stroke="#8decb7" stroke-opacity=".25" stroke-dasharray="4 5"/>
-      <circle cx="679" cy="137" r="9" fill="#8decb7" fill-opacity=".21"/>
-      <circle cx="679" cy="137" r="4.5" fill="#b6ffd4"/>
-      <circle cx="772" cy="159" r="3.5" fill="#b6ffd4"/>
-      <g class="sweep" opacity="0">
-        <animateTransform attributeName="transform" type="translate" values="0 0; 297 0" dur="3.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; .12; .86; 1" dur="3.8s" repeatCount="indefinite"/>
-        <rect x="471" y="92" width="68" height="180" fill="url(#sweep)"/>
-        <path d="M539 92v180" stroke="#b6ffd4" stroke-opacity=".8" stroke-width="2"/>
+  <g clip-path="url(#window)" font-family="Consolas, DejaVu Sans Mono, monospace">
+    <rect width="720" height="156" fill="#0d1013"/>
+    <rect width="720" height="40" fill="#20252b"/>
+    <path d="M0 40h720" stroke="#353d46"/>
+    <rect x="21" y="13" width="15" height="13" rx="2" fill="none" stroke="#b5bec8"/>
+    <path d="m24 17 2.5 2.5L24 22m5 0h4" fill="none" stroke="#b5bec8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="46" y="26" fill="#e0e5eb" font-family="Segoe UI, Arial, sans-serif" font-size="17">Prompt de Comando</text>
+    <text x="24" y="88" fill="#e8edf2" font-size="24" textLength="58" lengthAdjust="spacingAndGlyphs">C:\&gt;</text>
+    <g font-size="24">
+      <g class="animated">
+        <text x="95" y="88" fill="#91e7a9" textLength="156" lengthAdjust="spacingAndGlyphs"
+          clip-path="url(#typing)">echo Henr1sky</text>
+        <rect x="95" y="92" width="11" height="2" fill="#91e7a9">
+          <animate attributeName="x" calcMode="discrete" dur="7s" repeatCount="indefinite"
+            values="95;107;119;131;143;155;167;179;191;203;215;227;239;251;251"
+            keyTimes="0;.07;.085;.10;.115;.13;.145;.16;.175;.19;.205;.22;.235;.25;1"/>
+        </rect>
+        <text x="24" y="125" fill="#e8edf2" opacity="0">Henr1sky
+          <animate attributeName="opacity" calcMode="discrete" dur="7s" repeatCount="indefinite"
+            values="0;1;1" keyTimes="0;.31;1"/>
+        </text>
+      </g>
+      <g class="static">
+        <text x="95" y="88" fill="#91e7a9" textLength="156" lengthAdjust="spacingAndGlyphs">echo Henr1sky</text>
+        <text x="24" y="125" fill="#e8edf2">Henr1sky</text>
       </g>
     </g>
-    <rect x="531.5" y="92.5" width="286" height="179" rx="10" fill="none" stroke="#3b6960"/>
   </g>
-  <rect x="1" y="1" width="858" height="356" rx="20" fill="none" stroke="#355550" stroke-width="2"/>
+  <rect x="1" y="1" width="718" height="154" rx="9" fill="none" stroke="#353d46" stroke-width="2"/>
 </svg>
